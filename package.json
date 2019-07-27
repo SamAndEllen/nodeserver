@@ -6,5 +6,9 @@
   },
   "scripts": {
     "start": "cross-env NODE_PATH=src nodemon --watch src/ src/index.js"
+  },
+  "engines": {
+    "node": "12.6.0",
+    "npm": "6.9.0"
   }
 }
