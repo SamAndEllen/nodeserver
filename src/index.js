@@ -1,7 +1,5 @@
 require('dotenv').config();
-const {
-    PORT: port
-} = process.env;
+const port = process.env.PORT || 3000;
 
 const Koa = require('koa');
 const Router = require('koa-router');
