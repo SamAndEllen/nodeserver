@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "cross-env": "^5.2.0",
     "dotenv": "^8.0.0",
     "koa": "^2.7.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.19.1"
   },
   "scripts": {
     "start": "cross-env NODE_PATH=src nodemon --watch src/ src/index.js"
